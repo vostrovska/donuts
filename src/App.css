@@ -1,38 +1,31 @@
 .App {
+  margin-top: 150px;
   text-align: center;
+ 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-image: url("https://img.freepik.com/free-psd/varities-donut-flavor-shot-aerial-view_53876-15455.jpg?w=1800&t=st=1666474867~exp=1666475467~hmac=64b2e5b1876bc2b19673065840e5e7383b561899590c98e92c68114ea6d6d8cc");
+  background-repeat: no-repeat;
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+  background-color: rgb(129, 198, 232, 0.8);
+  color: #3C2317;
+  padding: 15px;
+  font-family: 'Fuzzy Bubbles', cursive;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p{
+  background-color: rgb(198, 137, 198, 0.8);
+  font-size: 25px;
+  padding: 15px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  margin: 5px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  background-color: #F5F0BB;
+  font-family: 'Fuzzy Bubbles', cursive;
 }
